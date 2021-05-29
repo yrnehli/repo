@@ -1,0 +1,82 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://henryli17.github.io/repo/depictions/xyz.henryli17.alwayslandscape/screenshots/screenshot.png",
+    "tintColor": "#2cb1be",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "AlwaysLandscape",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "Force apps to be in landscape regardless of orientation lock.",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Latest Version",
+                    "class": "DepictionHeaderView"
+                },
+                {
+                    "title": "Version",
+                    "text": "0.0.1",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "2021/05/29",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Henry Li",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Contact Support",
+                    "action": "",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "0.0.1",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Initial Release ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

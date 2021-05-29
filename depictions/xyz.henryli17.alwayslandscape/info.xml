@@ -1,0 +1,21 @@
+<package>
+	<id>xyz.henryli17.alwayslandscape</id>
+	<name>AlwaysLandscape</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>2.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>applist</package>
+	</dependencies>
+	<shortDescription>Force apps to be in landscape regardless of orientation lock.</shortDescription>
+	<descriptionlist>
+		<description>Force apps to be in landscape regardless of orientation lock.</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+</package>

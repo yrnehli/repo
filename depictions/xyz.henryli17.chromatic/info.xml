@@ -1,0 +1,27 @@
+<package>
+	<id>xyz.henryli17.chromatic</id>
+	<name>Chromatic</name>
+	<version>0.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>13.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>firmware</package>
+	</dependencies>
+	<shortDescription>Colourfy your iOS 13 music app.</shortDescription>
+	<descriptionlist>
+		<description>Colourfy your iOS 13 music app.</description>
+		<description>iOS 13 only.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>screenshot.png</image>
+		</screenshot>			
+	</screenshots>
+	<changelog>
+		<change>Adds arm64e support for A12 and above devices.</change>
+	</changelog>
+</package>

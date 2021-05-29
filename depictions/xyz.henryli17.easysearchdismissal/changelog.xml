@@ -1,0 +1,29 @@
+<changelog>
+	<changes>
+		<version>0.0.6</version>
+		<change>Fix bug preventing default return action from occurring. However, this bug fix means that the tweak will support fewer applications - mainly 3rd party ones.</change>
+	</changes>
+	<changes>
+		<version>0.0.5</version>
+		<change>Code optimisation.</change>
+		<change>Support more applications.</change>
+	</changes>
+	<changes>
+		<version>0.0.4</version>
+		<change>Now supports (in theory) all versions of iOS.</change>
+		<change>Further improved 3rd party application support.</change>
+	</changes>
+	<changes>
+		<version>0.0.3</version>
+		<change>Improve support for 3rd party applications.</change>
+	</changes>
+	<changes>
+		<version>0.0.2</version>
+		<change>Pressing 'Search' on the keyboard whilst the search bar is empty now mimics the cancelling the search.</change>
+		<change>Known bugs: Does not work on Spotlight search.</change>
+	</changes>
+	<changes>
+		<version>0.0.1</version>
+		<change>Initial Release</change>
+	</changes>
+</changelog>

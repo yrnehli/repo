@@ -1,0 +1,25 @@
+<package>
+	<id>xyz.henryli17.easysearchdismissal</id>
+	<name>EasySearchDismissal</name>
+	<version>0.0.6</version>
+	<compatibility>
+		<firmware>
+			<miniOS>2.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Easily dismiss an empty search bar with one tap from the keyboard.</shortDescription>
+	<descriptionlist>
+		<description>Dismiss an empty search bar by pressing 'Search' on the bottom right of your keyboard.</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>screenshot.jpg</image>
+		</screenshot>			
+	</screenshots>
+	<changelog>
+		<change>Fix bug preventing default return action from occurring. However, this bug fix means that the tweak will support fewer applications - mainly 3rd party ones.</change>
+	</changelog>
+</package>

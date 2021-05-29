@@ -1,0 +1,10 @@
+<changelog>
+	<changes>
+		<version>0.0.2</version>
+		<change>Adds arm64e support for A12 and above devices.</change>
+	</changes>
+	<changes>
+		<version>0.0.1</version>
+		<change>Initial Release</change>
+	</changes>
+</changelog>

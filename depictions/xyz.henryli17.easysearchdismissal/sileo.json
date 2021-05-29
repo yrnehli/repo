@@ -1,0 +1,164 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://henryli17.github.io/repo/depictions/xyz.henryli17.easysearchdismissal/screenshots/screenshot.jpg",
+    "tintColor": "#2cb1be",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "EasySearchDismissal",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://henryli17.github.io/repo/depictions/xyz.henryli17.easysearchdismissal/screenshots/screenshot.jpg",
+                            "fullSizeURL": "https://henryli17.github.io/repo/depictions/xyz.henryli17.easysearchdismissal/screenshots/screenshot.jpg"
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "markdown": "Dismiss an empty search bar by pressing 'Search' on the bottom right of your keyboard.",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Latest Version",
+                    "class": "DepictionHeaderView"
+                },
+                {
+                    "title": "Version",
+                    "text": "0.0.6",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "2021/05/28",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Henry Li",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Contact Support",
+                    "action": "",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "0.0.6",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Fix bug preventing default return action from occurring. However, this bug fix means that the tweak will support fewer applications - mainly 3rd party ones. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "title": "0.0.5",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Code optimisation. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+				{
+                    "markdown": "\t\n\u2022 Support more applications. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+				{
+                    "title": "0.0.4",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Now supports (in theory) all versions of iOS. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+				{
+                    "markdown": "\t\n\u2022 Further improved 3rd party application support. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+				{
+                    "title": "0.0.3",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Improve support for 3rd party applications. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+				{
+                    "title": "0.0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Pressing 'Search' on the keyboard whilst the search bar is empty now mimics the cancelling the search. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+				{
+                    "markdown": "\t\n\u2022 Known bugs: Does not work on Spotlight search. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+				{
+                    "title": "0.0.1",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Initial Release. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

@@ -1,0 +1,105 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://henryli17.github.io/repo/depictions/xyz.henryli17.chromatic/screenshots/screenshot.png",
+    "tintColor": "#2cb1be",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "Chromatic",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://henryli17.github.io/repo/depictions/xyz.henryli17.chromatic/screenshots/screenshot.png",
+                            "fullSizeURL": "https://henryli17.github.io/repo/depictions/xyz.henryli17.chromatic/screenshots/screenshot.png"
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "markdown": "Colourfy your iOS 13 music app.",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Latest Version",
+                    "class": "DepictionHeaderView"
+                },
+                {
+                    "title": "Version",
+                    "text": "0.0.2",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "2021/05/29",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Henry Li",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Contact Support",
+                    "action": "",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "0.0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Adds arm64e support for A12 and above devices. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "title": "0.0.1",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Initial Release ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}
