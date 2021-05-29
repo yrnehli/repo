@@ -1,7 +1,7 @@
 <package>
 	<id>xyz.henryli17.no3dlines14</id>
 	<name>No3DLines14</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>14.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>			
 	</screenshots>
 	<changelog>
-		<change>Adds arm64e support for A12 and above devices.</change>
+		<change>Optimisation (thanks ryannair05).</change>
 	</changelog>
 </package>
