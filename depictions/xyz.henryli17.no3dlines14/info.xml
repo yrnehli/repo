@@ -7,11 +7,6 @@
 			<miniOS>14.0</miniOS>
 		</firmware>
 	</compatibility>
-	<dependencies>
-		<package>mobilesubstrate</package>
-		<package>firmware</package>
-	</dependencies>
-	<shortDescription>Remove the lines from 3D Touch menus in iOS 14.</shortDescription>
 	<descriptionlist>
 		<description>Remove the lines from 3D Touch menus in iOS 14.</description>
 		<description>iOS 13 only.</description>

@@ -7,10 +7,6 @@
 			<miniOS>2.0</miniOS>
 		</firmware>
 	</compatibility>
-	<dependencies>
-		<package>mobilesubstrate</package>
-	</dependencies>
-	<shortDescription>Easily dismiss an empty search bar with one tap from the keyboard.</shortDescription>
 	<descriptionlist>
 		<description>Dismiss an empty search bar by pressing 'Search' on the bottom right of your keyboard.</description>
 	</descriptionlist>
@@ -20,6 +16,7 @@
 		</screenshot>			
 	</screenshots>
 	<changelog>
-		<change>Fix bug preventing default return action from occurring. However, this bug fix means that the tweak will support fewer applications - mainly 3rd party ones.</change>
+		<change>Fix potential memory leak which would cause instability and crashing.</change>
+		<change>Fix bug preventing default return action from occurring.</change>
 	</changelog>
 </package>

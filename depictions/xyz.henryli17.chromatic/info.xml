@@ -7,11 +7,6 @@
 			<miniOS>13.0</miniOS>
 		</firmware>
 	</compatibility>
-	<dependencies>
-		<package>mobilesubstrate</package>
-		<package>firmware</package>
-	</dependencies>
-	<shortDescription>Colourfy your iOS 13 music app.</shortDescription>
 	<descriptionlist>
 		<description>Colourfy your iOS 13 music app.</description>
 		<description>iOS 13 only.</description>

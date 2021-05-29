@@ -82,7 +82,12 @@
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "\t\n\u2022 Fix bug preventing default return action from occurring. However, this bug fix means that the tweak will support fewer applications - mainly 3rd party ones. ",
+                    "markdown": "\t\n\u2022 Fix potential memory leak which would cause instability and crashing. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Fix bug preventing default return action from occurring. ",
                     "useSpacing": false,
                     "class": "DepictionMarkdownView"
                 },

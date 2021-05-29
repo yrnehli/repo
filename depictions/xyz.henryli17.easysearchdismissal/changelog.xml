@@ -1,7 +1,8 @@
 <changelog>
 	<changes>
 		<version>0.0.6</version>
-		<change>Fix bug preventing default return action from occurring. However, this bug fix means that the tweak will support fewer applications - mainly 3rd party ones.</change>
+		<change>Fix potential memory leak which would cause instability and crashing.</change>
+		<change>Fix bug preventing default return action from occurring.</change>
 	</changes>
 	<changes>
 		<version>0.0.5</version>
