@@ -14,7 +14,7 @@
 				},
 				{
 					"markdown": "Dismiss an empty search bar by pressing 'Search' on the bottom right of your keyboard.",
-					"useSpacing": true,
+					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
@@ -28,6 +28,10 @@
 						}
 					],
 					"class": "DepictionScreenshotsView"
+				},
+				{
+					"spacing": 32,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -45,10 +49,6 @@
 					"title": "Contact Support",
 					"action": "https://reddit.com/user/henryli17/",
 					"class": "DepictionTableButtonView"
-				},
-				{
-					"spacing": 16,
-					"class": "DepictionSpacerView"
 				}
 			],
 			"class": "DepictionStackView"
@@ -63,7 +63,7 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Fix potential memory leak which would cause instability and crashing.",
+        "markdown": "\t\n\u2022 Fix potential memory leak which would cause instability and crashing.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -72,7 +72,7 @@
         "class": "DepictionSpacerView"
     },
     {
-        "markdown": "\t\n\\u2022 Fix bug preventing default return action from occurring.",
+        "markdown": "\t\n\u2022 Fix bug preventing default return action from occurring.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -83,7 +83,7 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Code optimisation.",
+        "markdown": "\t\n\u2022 Code optimisation.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -92,7 +92,7 @@
         "class": "DepictionSpacerView"
     },
     {
-        "markdown": "\t\n\\u2022 Support more applications.",
+        "markdown": "\t\n\u2022 Support more applications.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -103,7 +103,7 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Now supports (in theory) all versions of iOS.",
+        "markdown": "\t\n\u2022 Now supports (in theory) all versions of iOS.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -112,7 +112,7 @@
         "class": "DepictionSpacerView"
     },
     {
-        "markdown": "\t\n\\u2022 Further improved 3rd party application support.",
+        "markdown": "\t\n\u2022 Further improved 3rd party application support.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -123,7 +123,7 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Improve support for 3rd party applications.",
+        "markdown": "\t\n\u2022 Improve support for 3rd party applications.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -134,7 +134,7 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Pressing 'Search' on the keyboard whilst the search bar is empty now mimics the cancelling the search where possible.",
+        "markdown": "\t\n\u2022 Pressing 'Search' on the keyboard whilst the search bar is empty now mimics the cancelling the search where possible.",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -145,9 +145,13 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Initial Release",
+        "markdown": "\t\n\u2022 Initial Release",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
+    },
+    {
+        "spacing": 32,
+        "class": "DepictionSpacerView"
     }
 ],
 			"class": "DepictionStackView"

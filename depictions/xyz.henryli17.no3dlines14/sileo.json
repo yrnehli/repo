@@ -14,7 +14,7 @@
 				},
 				{
 					"markdown": "Remove the lines from 3D Touch menus in iOS 14.",
-					"useSpacing": true,
+					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
@@ -28,6 +28,10 @@
 						}
 					],
 					"class": "DepictionScreenshotsView"
+				},
+				{
+					"spacing": 32,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -45,10 +49,6 @@
 					"title": "Contact Support",
 					"action": "https://reddit.com/user/henryli17/",
 					"class": "DepictionTableButtonView"
-				},
-				{
-					"spacing": 16,
-					"class": "DepictionSpacerView"
 				}
 			],
 			"class": "DepictionStackView"
@@ -63,7 +63,7 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Optimisation (thanks ryannair05).",
+        "markdown": "\t\n\u2022 Optimisation (thanks ryannair05).",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },
@@ -74,9 +74,13 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Initial Release",
+        "markdown": "\t\n\u2022 Initial Release",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
+    },
+    {
+        "spacing": 32,
+        "class": "DepictionSpacerView"
     }
 ],
 			"class": "DepictionStackView"

@@ -14,7 +14,7 @@
 				},
 				{
 					"markdown": "Force apps to be in landscape regardless of orientation lock.",
-					"useSpacing": true,
+					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
@@ -28,6 +28,10 @@
 						}
 					],
 					"class": "DepictionScreenshotsView"
+				},
+				{
+					"spacing": 32,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -45,10 +49,6 @@
 					"title": "Contact Support",
 					"action": "https://reddit.com/user/henryli17/",
 					"class": "DepictionTableButtonView"
-				},
-				{
-					"spacing": 16,
-					"class": "DepictionSpacerView"
 				}
 			],
 			"class": "DepictionStackView"
@@ -63,9 +63,13 @@
         "class": "DepictionSubheaderView"
     },
     {
-        "markdown": "\t\n\\u2022 Initial Release",
+        "markdown": "\t\n\u2022 Initial Release",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
+    },
+    {
+        "spacing": 32,
+        "class": "DepictionSpacerView"
     }
 ],
 			"class": "DepictionStackView"

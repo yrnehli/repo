@@ -90,7 +90,7 @@ function generateSileoDepiction($depiction) {
 
 		foreach ($changes as $i => $change) {
 			$changelogViews[] = [
-				"markdown" => "\t\n\u2022 $change",
+				"markdown" => "\t\n• $change",
 				"useSpacing" => false,
 				"class" => "DepictionMarkdownView"
 			];
@@ -103,6 +103,11 @@ function generateSileoDepiction($depiction) {
 			}
 		}
 	}
+
+	$changelogViews[] = [
+		"spacing" => 32,
+		"class" => "DepictionSpacerView"
+	];
 
 	return str_replace(
 		["***NAME***", "***DESCRIPTION***", "***SCREENSHOTURL***", "***SCREENSHOTSIZE***", "***CHANGELOGVIEWSJSON***"],
