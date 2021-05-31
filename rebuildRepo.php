@@ -110,7 +110,7 @@ function generateSileoDepiction($depiction) {
 	);
 }
 
-function addDepictions($packages) {	
+function addDepictions(&$packages) {	
 	foreach ($packages as $identifier => &$package) {
 		if (!str_contains($package, "Depiction: ")) {
 			$package .= "\nDepiction:" . REPO_BASE_URL . "/depictions/$identifier/depiction.html";
@@ -120,8 +120,6 @@ function addDepictions($packages) {
 			$package .= "\SileoDepiction:" . REPO_BASE_URL . "/depictions/$identifier/sileo.json";
 		}
 	}
-	
-	return $packages;
 }
 
 function str_contains($haystack, $needle) {
