@@ -113,12 +113,20 @@ function generateSileoDepiction($depiction) {
 
 function addDepictions(&$packages) {	
 	foreach ($packages as $identifier => &$package) {
+		$package = preg_replace_callback("/Depiction: .*/", function() use ($identifier) {
+			return "Depiction: " . REPO_BASE_URL . "/depictions/$identifier/depiction.html";
+		}, $package);
+
+		$package = preg_replace_callback("/SileoDepiction: .*/", function() use ($identifier) {
+			return  "SileoDepiction: " . REPO_BASE_URL . "/depictions/$identifier/sileo.json";
+		}, $package);
+
 		if (!str_contains($package, "Depiction: ")) {
-			$package .= "\nDepiction:" . REPO_BASE_URL . "/depictions/$identifier/depiction.html";
+			$package .= "\nDepiction: " . REPO_BASE_URL . "/depictions/$identifier/depiction.html";
 		}
 	
 		if (!str_contains($package, "SileoDepiction: ")) {
-			$package .= "\nSileoDepiction:" . REPO_BASE_URL . "/depictions/$identifier/sileo.json";
+			$package .= "\nSileoDepiction: " . REPO_BASE_URL . "/depictions/$identifier/sileo.json";
 		}
 	}
 }
