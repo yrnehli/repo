@@ -1,0 +1,23 @@
+{
+	"0.0.6": [
+		"Fix potential memory leak which would cause instability and crashing.",
+		"Fix bug preventing default return action from occurring."
+	],
+	"0.0.5": [
+		"Code optimisation.",
+		"Support more applications."
+	],
+	"0.0.4": [
+		"Now supports (in theory) all versions of iOS.",
+		"Further improved 3rd party application support."
+	],
+	"0.0.3": [
+		"Improve support for 3rd party applications."
+	],
+	"0.0.2": [
+		"Pressing 'Search' on the keyboard whilst the search bar is empty now mimics the cancelling the search where possible."
+	],
+	"0.0.1": [
+		"Initial Release"
+	]
+}

@@ -1,13 +1,13 @@
 {
 	"minVersion": "0.1",
-	"headerImage": "",
+	"headerImage": "***SCREENSHOTURL***",
 	"tintColor": "#a550a6",
 	"tabs": [
 		{
 			"tabname": "Details",
 			"views": [
 				{
-					"title": "AlwaysLandscape",
+					"title": "***NAME***",
 					"useBoldText": true,
 					"useBottomMargin": false,
 					"class": "DepictionSubheaderView"
@@ -18,14 +18,14 @@
 					"screenshots": [
 						{
 							"accessibilityText": "Screenshot",
-							"url": "",
-							"fullSizeURL": ""
+							"url": "***SCREENSHOTURL***",
+							"fullSizeURL": "***SCREENSHOTURL***"
 						}
 					],
 					"class": "DepictionScreenshotsView"
 				},
 				{
-					"markdown": "Force apps to be in landscape regardless of orientation lock.",
+					"markdown": "***DESCRIPTION***",
 					"useSpacing": true,
 					"class": "DepictionMarkdownView"
 				},
@@ -56,19 +56,7 @@
 		{
 			"tabname": "Changelog",
 			"views": [
-				[
-    {
-        "title": "0.0.1",
-        "useBoldText": true,
-        "useBottomMargin": true,
-        "class": "DepictionSubheaderView"
-    },
-    {
-        "markdown": "\t\n\\u2022 Initial Release",
-        "useSpacing": false,
-        "class": "DepictionMarkdownView"
-    }
-]
+				***CHANGELOGVIEWSJSON***
 			],
 			"class": "DepictionStackView"
 		}
