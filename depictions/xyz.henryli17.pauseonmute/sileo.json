@@ -17,7 +17,7 @@
 					"class": "DepictionSpacerView"
 				},
 				{
-					"markdown": "Automatically pause/unpause music when you turn you mute/unmute your volume.",
+					"markdown": "Automatically pause/unpause music when you turn you mute/unmute your volume. Configure options in settings app.",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
