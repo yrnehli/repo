@@ -13,8 +13,13 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
+					"markdown": "***DESCRIPTION***",
+					"useSpacing": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
 					"itemCornerRadius": 6,
-					"itemSize": "{160, 275.41333333333336}",
+					"itemSize": "***SCREENSHOTSIZE***",
 					"screenshots": [
 						{
 							"accessibilityText": "Screenshot",
@@ -23,11 +28,6 @@
 						}
 					],
 					"class": "DepictionScreenshotsView"
-				},
-				{
-					"markdown": "***DESCRIPTION***",
-					"useSpacing": true,
-					"class": "DepictionMarkdownView"
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -55,9 +55,7 @@
 		},
 		{
 			"tabname": "Changelog",
-			"views": [
-				***CHANGELOGVIEWSJSON***
-			],
+			"views": ***CHANGELOGVIEWSJSON***
 			"class": "DepictionStackView"
 		}
 	],

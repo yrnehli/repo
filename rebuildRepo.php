@@ -77,6 +77,7 @@ function generateHtmlDepiction($depiction) {
 }
 
 function generateSileoDepiction($depiction) {
+	$screenshotSize = ($depiction['screenshotUrl'] !== "") ? "{160, 275.41333333333336}" : "{0, 0}";
 	$changelogViews = [];
 
 	foreach ($depiction['changelog'] as $version => $changes) {
@@ -104,8 +105,8 @@ function generateSileoDepiction($depiction) {
 	}
 
 	return str_replace(
-		["***NAME***", "***DESCRIPTION***", "***SCREENSHOTURL***", "***CHANGELOGVIEWSJSON***"],
-		[$depiction['name'], $depiction['description'], $depiction['screenshotUrl'], json_encode($changelogViews, JSON_PRETTY_PRINT)],
+		["***NAME***", "***DESCRIPTION***", "***SCREENSHOTURL***", "***SCREENSHOTSIZE***", "***CHANGELOGVIEWSJSON***"],
+		[$depiction['name'], $depiction['description'], $depiction['screenshotUrl'], $screenshotSize, json_encode($changelogViews, JSON_PRETTY_PRINT) . ","],
 		file_get_contents("assets/json/sileoDepictionTemplate.json")
 	);
 }

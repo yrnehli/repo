@@ -13,6 +13,11 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
+					"markdown": "Dismiss an empty search bar by pressing 'Search' on the bottom right of your keyboard.",
+					"useSpacing": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
 					"itemCornerRadius": 6,
 					"itemSize": "{160, 275.41333333333336}",
 					"screenshots": [
@@ -23,11 +28,6 @@
 						}
 					],
 					"class": "DepictionScreenshotsView"
-				},
-				{
-					"markdown": "Dismiss an empty search bar by pressing 'Search' on the bottom right of your keyboard.",
-					"useSpacing": true,
-					"class": "DepictionMarkdownView"
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -56,7 +56,6 @@
 		{
 			"tabname": "Changelog",
 			"views": [
-				[
     {
         "title": "0.0.6",
         "useBoldText": true,
@@ -150,8 +149,7 @@
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     }
-]
-			],
+],
 			"class": "DepictionStackView"
 		}
 	],

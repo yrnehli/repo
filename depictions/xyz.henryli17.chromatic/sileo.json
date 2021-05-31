@@ -13,6 +13,11 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
+					"markdown": "Colourfy your iOS 13 music app.",
+					"useSpacing": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
 					"itemCornerRadius": 6,
 					"itemSize": "{160, 275.41333333333336}",
 					"screenshots": [
@@ -23,11 +28,6 @@
 						}
 					],
 					"class": "DepictionScreenshotsView"
-				},
-				{
-					"markdown": "Colourfy your iOS 13 music app.",
-					"useSpacing": true,
-					"class": "DepictionMarkdownView"
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -56,7 +56,6 @@
 		{
 			"tabname": "Changelog",
 			"views": [
-				[
     {
         "title": "0.0.2",
         "useBoldText": true,
@@ -79,8 +78,7 @@
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     }
-]
-			],
+],
 			"class": "DepictionStackView"
 		}
 	],
