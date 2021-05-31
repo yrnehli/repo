@@ -117,7 +117,7 @@ function addDepictions(&$packages) {
 		}
 	
 		if (!str_contains($package, "SileoDepiction: ")) {
-			$package .= "\SileoDepiction:" . REPO_BASE_URL . "/depictions/$identifier/sileo.json";
+			$package .= "\nSileoDepiction:" . REPO_BASE_URL . "/depictions/$identifier/sileo.json";
 		}
 	}
 }
