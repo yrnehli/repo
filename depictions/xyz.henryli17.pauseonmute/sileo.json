@@ -1,0 +1,87 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "",
+	"tintColor": "#a550a6",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					"title": "PauseOnMute",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"markdown": "Automatically pause/unpause music when you turn you mute/unmute your volume.",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"itemCornerRadius": 6,
+					"itemSize": "{0, 0}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "",
+							"fullSizeURL": ""
+						}
+					],
+					"class": "DepictionScreenshotsView"
+				},
+				{
+					"spacing": 32,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Details",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Developer",
+					"text": "Henry Li",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Contact Support",
+					"action": "https://reddit.com/user/henryli17/",
+					"class": "DepictionTableButtonView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+    {
+        "title": "0.0.1",
+        "useBoldText": true,
+        "useBottomMargin": true,
+        "class": "DepictionSubheaderView"
+    },
+    {
+        "markdown": "\t\n\u2022 Initial Release",
+        "useSpacing": false,
+        "class": "DepictionMarkdownView"
+    },
+    {
+        "spacing": 32,
+        "class": "DepictionSpacerView"
+    }
+],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
