@@ -1,6 +1,6 @@
 {
 	"minVersion": "0.1",
-	"headerImage": "***SCREENSHOTURL***",
+	"headerImage": "***SCREENSHOT_URL***",
 	"tintColor": "#a550a6",
 	"tabs": [
 		{
@@ -27,12 +27,12 @@
 				},
 				{
 					"itemCornerRadius": 6,
-					"itemSize": "***SCREENSHOTSIZE***",
+					"itemSize": "***SCREENSHOT_SIZE****",
 					"screenshots": [
 						{
 							"accessibilityText": "Screenshot",
-							"url": "***SCREENSHOTURL***",
-							"fullSizeURL": "***SCREENSHOTURL***"
+							"url": "***SCREENSHOT_URL***",
+							"fullSizeURL": "***SCREENSHOT_URL***"
 						}
 					],
 					"class": "DepictionScreenshotsView"
@@ -63,7 +63,7 @@
 		},
 		{
 			"tabname": "Changelog",
-			"views": ***CHANGELOGVIEWSJSON***
+			"views": ***CHANGELOG_VIEWS_JSON****
 			"class": "DepictionStackView"
 		}
 	],

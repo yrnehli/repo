@@ -70,7 +70,7 @@ function generateHtmlDepiction($depiction) {
 	}
 
 	return str_replace(
-		["***NAME***", "***DESCRIPTION***", "***SCREENSHOTURL***", "***CHANGELOGHTML***"],
+		["***NAME***", "***DESCRIPTION***", "***SCREENSHOT_URL***", "***CHANGELOG_HTML***"],
 		[$depiction['name'], $depiction['description'], $depiction['screenshotUrl'], $changelogHtml],
 		file_get_contents("assets/template/depictionTemplate.html")
 	);
@@ -110,7 +110,7 @@ function generateSileoDepiction($depiction) {
 	];
 
 	return str_replace(
-		["***NAME***", "***DESCRIPTION***", "***SCREENSHOTURL***", "***SCREENSHOTSIZE***", "***CHANGELOGVIEWSJSON***"],
+		["***NAME***", "***DESCRIPTION***", "***SCREENSHOT_URL***", "***SCREENSHOT_SIZE****", "***CHANGELOG_VIEWS_JSON****"],
 		[$depiction['name'], $depiction['description'], $depiction['screenshotUrl'], $screenshotSize, json_encode($changelogViews, JSON_PRETTY_PRINT) . ","],
 		file_get_contents("assets/template/sileoDepictionTemplate.json")
 	);
