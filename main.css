@@ -46,5 +46,6 @@ body {
 }
 
 a:hover {
+	color: #007bff;
 	text-decoration: none;
 }
