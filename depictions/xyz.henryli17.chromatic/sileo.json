@@ -13,9 +13,17 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
 					"markdown": "Colourfy your iOS 13 music app.",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"itemCornerRadius": 6,

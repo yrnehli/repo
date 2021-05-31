@@ -13,9 +13,17 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
 					"markdown": "Remove the lines from 3D Touch menus in iOS 14.",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"itemCornerRadius": 6,

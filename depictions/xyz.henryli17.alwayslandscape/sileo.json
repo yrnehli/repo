@@ -13,9 +13,17 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
 					"markdown": "Force apps to be in landscape regardless of orientation lock.",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"itemCornerRadius": 6,

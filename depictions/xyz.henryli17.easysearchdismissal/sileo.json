@@ -13,9 +13,17 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
 					"markdown": "Dismiss an empty search bar by pressing 'Search' on the bottom right of your keyboard.",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"itemCornerRadius": 6,
