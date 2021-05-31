@@ -1,6 +1,6 @@
 {
 	"minVersion": "0.1",
-	"headerImage": "https://henryli17.github.io/depictions/xyz.henryli17.easysearchdismissal/screenshot.png",
+	"headerImage": "https://henryli17.github.io/repo/depictions/xyz.henryli17.easysearchdismissal/screenshot.png",
 	"tintColor": "#a550a6",
 	"tabs": [
 		{
@@ -18,8 +18,8 @@
 					"screenshots": [
 						{
 							"accessibilityText": "Screenshot",
-							"url": "https://henryli17.github.io/depictions/xyz.henryli17.easysearchdismissal/screenshot.png",
-							"fullSizeURL": "https://henryli17.github.io/depictions/xyz.henryli17.easysearchdismissal/screenshot.png"
+							"url": "https://henryli17.github.io/repo/depictions/xyz.henryli17.easysearchdismissal/screenshot.png",
+							"fullSizeURL": "https://henryli17.github.io/repo/depictions/xyz.henryli17.easysearchdismissal/screenshot.png"
 						}
 					],
 					"class": "DepictionScreenshotsView"

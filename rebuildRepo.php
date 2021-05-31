@@ -1,5 +1,6 @@
 <?php
 
+define("REPO_BASE_URL", "https://henryli17.github.io/repo");
 unlink("Packages.bz2");
 exec("dpkg-scanpackages -m ./assets/deb > Packages");
 $packages = getPackages(file_get_contents("Packages"));
@@ -36,7 +37,7 @@ function generateDepictions($packages) {
 		$depiction = [
 			'name' => $nameMatches[1],
 			'description' => $descriptionMatches[1],
-			'screenshotUrl' => (file_exists("depictions/$identifier/screenshot.png")) ? "https://henryli17.github.io/depictions/$identifier/screenshot.png" : "",
+			'screenshotUrl' => (file_exists("depictions/$identifier/screenshot.png")) ? REPO_BASE_URL . "/depictions/$identifier/screenshot.png" : "",
 			'changelog' => json_decode(file_get_contents("depictions/$identifier/changelog.json"))
 		];
 
@@ -112,11 +113,11 @@ function generateSileoDepiction($depiction) {
 function addDepictions($packages) {	
 	foreach ($packages as $identifier => &$package) {
 		if (!str_contains($package, "Depiction: ")) {
-			$package .= "\nDepiction: https://henryli17.github.io/repo/depictions/$identifier/depiction.html";
+			$package .= "\nDepiction:" . REPO_BASE_URL . "/depictions/$identifier/depiction.html";
 		}
 	
 		if (!str_contains($package, "SileoDepiction: ")) {
-			$package .= "\nSileoDepiction: https://henryli17.github.io/repo/depictions/$identifier/sileo.json";
+			$package .= "\SileoDepiction:" . REPO_BASE_URL . "/depictions/$identifier/sileo.json";
 		}
 	}
 	
