@@ -42,11 +42,11 @@ function generateDepictions($packages) {
 			'changelog' => json_decode(file_get_contents("depictions/$identifier/changelog.json"))
 		];
 
-		file_put_contents("depictions/$identifier/depiction.html", generateHtmlDepiction($depiction));
+		file_put_contents("depictions/$identifier/index.html", generateHtmlDepiction($depiction));
 		file_put_contents("depictions/$identifier/sileo.json", generateSileoDepiction($depiction));
 
 		if ($depiction['screenshotPageUrl'] !== "") {
-			file_put_contents("depictions/$identifier/screenshot.html", generateScreenshotPage($depiction['screenshotPageUrl']));
+			file_put_contents("depictions/$identifier/screenshot.html", generateScreenshotPage($depiction['screenshotUrl']));
 		}
 	}
 }
@@ -118,10 +118,10 @@ function generateSileoDepiction($depiction) {
 	);
 }
 
-function generateScreenshotPage($screenshotPageUrl) {
+function generateScreenshotPage($screenshotUrl) {
 	return str_replace(
-		"***SCREENSHOT_PAGE_URL***",
-		$screenshotPageUrl,
+		"***SCREENSHOT_URL***",
+		$screenshotUrl,
 		file_get_contents("assets/template/screenshotTemplate.html")
 	);
 }
@@ -129,7 +129,7 @@ function generateScreenshotPage($screenshotPageUrl) {
 function addDepictions(&$packages) {	
 	foreach ($packages as $identifier => &$package) {
 		$package = preg_replace_callback("/Depiction: .*/", function() use ($identifier) {
-			return "Depiction: " . REPO_BASE_URL . "/depictions/$identifier/depiction.html";
+			return "Depiction: " . REPO_BASE_URL . "/depictions/$identifier";
 		}, $package);
 
 		$package = preg_replace_callback("/SileoDepiction: .*/", function() use ($identifier) {
@@ -137,7 +137,7 @@ function addDepictions(&$packages) {
 		}, $package);
 
 		if (!str_contains($package, "Depiction: ")) {
-			$package .= "\nDepiction: " . REPO_BASE_URL . "/depictions/$identifier/depiction.html";
+			$package .= "\nDepiction: " . REPO_BASE_URL . "/depictions/$identifier";
 		}
 	
 		if (!str_contains($package, "SileoDepiction: ")) {
