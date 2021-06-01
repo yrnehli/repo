@@ -1,0 +1,87 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://henryli17.github.io/repo/depictions/xyz.henryli17.dontshrinkmyalbumart/screenshot.png",
+	"tintColor": "#a550a6",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					"title": "DontShrinkMyAlbumArt",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"markdown": "Stop the music app from shrinking the album art in the now playing view when paused. Requires iOS 14.",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 275.41333333333336}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://henryli17.github.io/repo/depictions/xyz.henryli17.dontshrinkmyalbumart/screenshot.png",
+							"fullSizeURL": "https://henryli17.github.io/repo/depictions/xyz.henryli17.dontshrinkmyalbumart/screenshot.png"
+						}
+					],
+					"class": "DepictionScreenshotsView"
+				},
+				{
+					"spacing": 32,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Details",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Developer",
+					"text": "Henry Li",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Contact Support",
+					"action": "https://reddit.com/user/henryli17/",
+					"class": "DepictionTableButtonView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+    {
+        "title": "0.0.1",
+        "useBoldText": true,
+        "useBottomMargin": true,
+        "class": "DepictionSubheaderView"
+    },
+    {
+        "markdown": "\t\n\u2022 Initial Release",
+        "useSpacing": false,
+        "class": "DepictionMarkdownView"
+    },
+    {
+        "spacing": 32,
+        "class": "DepictionSpacerView"
+    }
+],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
