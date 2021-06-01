@@ -1,0 +1,87 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://henryli17.github.io/repo/depictions/xyz.henryli17.safariautocorrect/screenshot.png",
+	"tintColor": "#a550a6",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					"title": "SafariAutoCorrect",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"markdown": "Enable autocorrect in the URL/search bar of Safari. Developed for iOS 14.",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"spacing": 8,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"itemCornerRadius": 6,
+					"itemSize": "{160, 275.41333333333336}",
+					"screenshots": [
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://henryli17.github.io/repo/depictions/xyz.henryli17.safariautocorrect/screenshot.png",
+							"fullSizeURL": "https://henryli17.github.io/repo/depictions/xyz.henryli17.safariautocorrect/screenshot.png"
+						}
+					],
+					"class": "DepictionScreenshotsView"
+				},
+				{
+					"spacing": 32,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Details",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Developer",
+					"text": "Henry Li",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Contact Support",
+					"action": "https://reddit.com/user/henryli17/",
+					"class": "DepictionTableButtonView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+    {
+        "title": "0.0.1",
+        "useBoldText": true,
+        "useBottomMargin": true,
+        "class": "DepictionSubheaderView"
+    },
+    {
+        "markdown": "\t\n\u2022 Initial Release",
+        "useSpacing": false,
+        "class": "DepictionMarkdownView"
+    },
+    {
+        "spacing": 32,
+        "class": "DepictionSpacerView"
+    }
+],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
