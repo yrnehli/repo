@@ -38,14 +38,16 @@ function generateDepictions($packages) {
 			'name' => $nameMatches[1],
 			'description' => $descriptionMatches[1],
 			'screenshotUrl' => (file_exists("depictions/$identifier/screenshot.png")) ? REPO_BASE_URL . "/depictions/$identifier/screenshot.png" : "",
+			'screenshotPageUrl' => (file_exists("depictions/$identifier/screenshot.png")) ? REPO_BASE_URL . "/depictions/$identifier/screenshot.html" : "",
 			'changelog' => json_decode(file_get_contents("depictions/$identifier/changelog.json"))
 		];
 
-		$htmlDepiction = generateHtmlDepiction($depiction);
-		$sileoDepiction = generateSileoDepiction($depiction);
+		file_put_contents("depictions/$identifier/depiction.html", generateHtmlDepiction($depiction));
+		file_put_contents("depictions/$identifier/sileo.json", generateSileoDepiction($depiction));
 
-		file_put_contents("depictions/$identifier/depiction.html", $htmlDepiction);
-		file_put_contents("depictions/$identifier/sileo.json", $sileoDepiction);
+		if ($depiction['screenshotPageUrl'] !== "") {
+			file_put_contents("depictions/$identifier/screenshot.html", generateScreenshotPage($depiction['screenshotPageUrl']));
+		}
 	}
 }
 
@@ -70,8 +72,8 @@ function generateHtmlDepiction($depiction) {
 	}
 
 	return str_replace(
-		["***NAME***", "***DESCRIPTION***", "***SCREENSHOT_URL***", "***CHANGELOG_HTML***"],
-		[$depiction['name'], $depiction['description'], $depiction['screenshotUrl'], $changelogHtml],
+		["***NAME***", "***DESCRIPTION***", "***SCREENSHOT_PAGE_URL***", "***CHANGELOG_HTML***"],
+		[$depiction['name'], $depiction['description'], $depiction['screenshotPageUrl'], $changelogHtml],
 		file_get_contents("assets/template/depictionTemplate.html")
 	);
 }
@@ -113,6 +115,14 @@ function generateSileoDepiction($depiction) {
 		["***NAME***", "***DESCRIPTION***", "***SCREENSHOT_URL***", "***SCREENSHOT_SIZE****", "***CHANGELOG_VIEWS_JSON****"],
 		[$depiction['name'], $depiction['description'], $depiction['screenshotUrl'], $screenshotSize, json_encode($changelogViews, JSON_PRETTY_PRINT) . ","],
 		file_get_contents("assets/template/sileoDepictionTemplate.json")
+	);
+}
+
+function generateScreenshotPage($screenshotPageUrl) {
+	return str_replace(
+		"***SCREENSHOT_PAGE_URL***",
+		$screenshotPageUrl,
+		file_get_contents("assets/template/screenshotTemplate.html")
 	);
 }
 
