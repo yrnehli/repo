@@ -65,6 +65,17 @@
 			"tabname": "Changelog",
 			"views": [
     {
+        "title": "0.0.2",
+        "useBoldText": true,
+        "useBottomMargin": true,
+        "class": "DepictionSubheaderView"
+    },
+    {
+        "markdown": "\t\n\u2022 Support for custom volume steps",
+        "useSpacing": false,
+        "class": "DepictionMarkdownView"
+    },
+    {
         "title": "0.0.1",
         "useBoldText": true,
         "useBottomMargin": true,
