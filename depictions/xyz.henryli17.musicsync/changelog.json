@@ -1,0 +1,10 @@
+{
+	"0.0.2": [
+		"Fixed temporary UI freeze when importing a large number of entries",
+		"Can now import 1000+ entries at once"
+	],
+	"0.0.1": [
+		"Initial Release",
+		"See documentation at https://github.com/henryli17/musicsync"
+	]
+}
