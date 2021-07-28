@@ -1,0 +1,6 @@
+{
+	"0.0.1": [
+		"Initial Release",
+		"Known Bugs: Listening mode shown in volume module of the CC does not update when you change listening mode via the Beats Studio Buds themselves (long hold) until the volume module is reopened."
+	]
+}
