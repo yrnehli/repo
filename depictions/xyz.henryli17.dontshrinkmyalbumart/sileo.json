@@ -65,6 +65,17 @@
 			"tabname": "Changelog",
 			"views": [
     {
+        "title": "0.0.3",
+        "useBoldText": true,
+        "useBottomMargin": true,
+        "class": "DepictionSubheaderView"
+    },
+    {
+        "markdown": "\t\n\u2022 Bug fixes",
+        "useSpacing": false,
+        "class": "DepictionMarkdownView"
+    },
+    {
         "title": "0.0.2",
         "useBoldText": true,
         "useBottomMargin": true,
