@@ -100,7 +100,7 @@
         "class": "DepictionSpacerView"
     },
     {
-		"markdown": "\t\n\u2022 See documentation at https:\/\/github.com\/yrnehli\/musicsync",
+        "markdown": "\t\n\u2022 See documentation at https:\/\/github.com\/yrnehli\/musicsync",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },

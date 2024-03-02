@@ -11,6 +11,8 @@ exec("bzip2 Packages");
 die("Done\n");
 
 function getPackages($packagesText) {
+	$packages = [];
+
 	foreach (explode("\n\n", $packagesText) as $package) {
 		if (trim($package) === "") {
 			continue;

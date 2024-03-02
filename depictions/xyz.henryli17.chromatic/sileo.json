@@ -1,6 +1,6 @@
 {
 	"minVersion": "0.1",
-	"headerImage": "https://yrnehli.github.io/repo/depictions/xyz.yrnehli.chromatic/screenshot.png",
+	"headerImage": "https://yrnehli.github.io/repo/depictions/xyz.henryli17.chromatic/screenshot.png",
 	"tintColor": "#a550a6",
 	"tabs": [
 		{
@@ -31,8 +31,8 @@
 					"screenshots": [
 						{
 							"accessibilityText": "Screenshot",
-							"url": "https://yrnehli.github.io/repo/depictions/xyz.yrnehli.chromatic/screenshot.png",
-							"fullSizeURL": "https://yrnehli.github.io/repo/depictions/xyz.yrnehli.chromatic/screenshot.png"
+							"url": "https://yrnehli.github.io/repo/depictions/xyz.henryli17.chromatic/screenshot.png",
+							"fullSizeURL": "https://yrnehli.github.io/repo/depictions/xyz.henryli17.chromatic/screenshot.png"
 						}
 					],
 					"class": "DepictionScreenshotsView"
