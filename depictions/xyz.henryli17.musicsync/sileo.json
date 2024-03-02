@@ -55,7 +55,7 @@
 				},
 				{
 					"title": "Contact Support",
-					"action": "https://reddit.com/user/henryli17/",
+					"action": "https://reddit.com/user/yrnehli/",
 					"class": "DepictionTableButtonView"
 				}
 			],
@@ -100,7 +100,7 @@
         "class": "DepictionSpacerView"
     },
     {
-        "markdown": "\t\n\u2022 See documentation at https:\/\/github.com\/henryli17\/musicsync",
+		"markdown": "\t\n\u2022 See documentation at https:\/\/github.com\/yrnehli\/musicsync",
         "useSpacing": false,
         "class": "DepictionMarkdownView"
     },

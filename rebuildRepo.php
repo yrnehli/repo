@@ -1,6 +1,6 @@
 <?php
 
-define("REPO_BASE_URL", "https://henryli17.github.io/repo");
+define("REPO_BASE_URL", "https://yrnehli.github.io/repo");
 unlink("Packages.bz2");
 exec("dpkg-scanpackages -m ./assets/deb > Packages");
 $packages = getPackages(file_get_contents("Packages"));

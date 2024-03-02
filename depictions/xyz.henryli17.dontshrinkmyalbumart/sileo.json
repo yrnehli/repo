@@ -1,6 +1,6 @@
 {
 	"minVersion": "0.1",
-	"headerImage": "https://henryli17.github.io/repo/depictions/xyz.henryli17.dontshrinkmyalbumart/screenshot.png",
+	"headerImage": "https://yrnehli.github.io/repo/depictions/xyz.yrnehli.dontshrinkmyalbumart/screenshot.png",
 	"tintColor": "#a550a6",
 	"tabs": [
 		{
@@ -31,8 +31,8 @@
 					"screenshots": [
 						{
 							"accessibilityText": "Screenshot",
-							"url": "https://henryli17.github.io/repo/depictions/xyz.henryli17.dontshrinkmyalbumart/screenshot.png",
-							"fullSizeURL": "https://henryli17.github.io/repo/depictions/xyz.henryli17.dontshrinkmyalbumart/screenshot.png"
+							"url": "https://yrnehli.github.io/repo/depictions/xyz.yrnehli.dontshrinkmyalbumart/screenshot.png",
+							"fullSizeURL": "https://yrnehli.github.io/repo/depictions/xyz.yrnehli.dontshrinkmyalbumart/screenshot.png"
 						}
 					],
 					"class": "DepictionScreenshotsView"
@@ -55,7 +55,7 @@
 				},
 				{
 					"title": "Contact Support",
-					"action": "https://reddit.com/user/henryli17/",
+					"action": "https://reddit.com/user/yrnehli/",
 					"class": "DepictionTableButtonView"
 				}
 			],
